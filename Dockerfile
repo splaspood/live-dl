@@ -8,6 +8,7 @@ RUN apk update -f \
     # coreutils used by numfmt
     coreutils \
     # gcc and libc-dev used by streamlink
+    g++ \
     gcc \
     libc-dev \
     libxml2-dev \
